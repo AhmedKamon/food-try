@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <h2 class="title">Find your meal</h2>
+                <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs</p>
+                <div class="meal-search-box">
+                    <input type="text" class="search-content" placeholder="enter your food name" id="search-input">
+                    <button type="submit" class="search-btn btn" id="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="meal-result" >
+                <h2 class="title">your search result</h2>
+               <div id="meal">
+                   <!-- meal-item-start -->
+                   <div class="meal-item">
+                       <div class="meal-img">
+                           <img src="image/food.jpg" alt="food"> 
+                       </div>
+                       <div class="meal-name">
+                        <h3>Healthy food</h3>
+                        <a href="#" class="recipe-btn">view more</a>
+                       </div>
+                   </div>
+                   <!-- meal-item-closed -->
+                    <!-- meal-item-start -->
+                    <div class="meal-item">
+                        <div class="meal-img">
+                            <img src="image/food.jpg" alt="food">
+                        </div>
+                        <div class="meal-name">
+                         <h3>Healthy food</h3>
+                         <a href="#" class="recipe-btn">view more</a>
+                        </div>
+                    </div>
+                    <!-- meal-item-closed -->
+                     <!-- meal-item-start -->
+                   <div class="meal-item">
+                    <div class="meal-img">
+                        <img src="image/food.jpg" alt="food">
+                    </div>
+                    <div class="meal-name">
+                     <h3>Healthy food</h3>
+                     <a href="#" class="recipe-btn">view more</a>
+                    </div>
+                </div>
+                <!-- meal-item-closed -->
+
+               </div>
+            </div>
+            <!-- second-page -->
+            <div class="meal-details">
+                <!-- close button -->
+                <button type="button" class="btn recipe-close-btn" id="btn recipe-close-btn">
+                    <i class=" fas fa-times"></i>
+                </button>
+                <!-- detail content -->
+                <div class="meal-detail-content">
+                    <div class="recipe-meal-img">
+                        <img src="image/food.jpg" alt="">
+                    </div>
+                    <h2 class="recipe-title">meal name</h2>
+                    <p class="recipe-category">category name</p>
+                    <div class="recipe-instruction">
+                        <h3>instruction</h3>
+                        <p>phic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
